@@ -525,7 +525,6 @@ img {
     background-color: #31d0aa;
 }
 
-
 .footer-subscribe-title {
     margin-bottom: 16px;
     font-weight: 500;
@@ -667,7 +666,7 @@ img {
 }
 
 .modal-field-wrap {
-    margin-bottom: 4px;
+    margin-bottom: 0;
 }
 
 .modal-input-wrap {
@@ -713,7 +712,7 @@ img {
 }
 
 .modal-field-wrap-comment {
-    margin-bottom: 16px;
+    margin-bottom: 0;
 }
 
 .modal-textarea {
@@ -737,7 +736,7 @@ img {
 }
 
 .modal-field-checkbox {
-    margin-bottom: 24px;
+    margin-bottom: 0;
 }
 
 .modal-checkbox {
@@ -770,7 +769,7 @@ img {
 .modal-checkbox:checked+.modal-checkbox-label .modal-own-checkbox {
     background-color: #404bbf;
     border: none;
-    fill:#ffffff;
+    fill: var(--light-text);
 }
 
 .privacy-link {
@@ -783,4 +782,10 @@ img {
     margin: 0 auto;
     min-width: 169px;
     height: 56px;
+}
+
+.modal-form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
